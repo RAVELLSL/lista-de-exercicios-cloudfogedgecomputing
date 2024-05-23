@@ -176,7 +176,11 @@
         box-sizing: border-box; /* Garante que padding e borda sejam incluídos na largura total */
     }
 
-    h1, h3, p, label {
+    h1 {
+        text-align: center; /* Centraliza o título */
+    }
+
+    h3, p, label {
         text-align: left;
     }
 
@@ -190,6 +194,7 @@
         width: 90%;
     }
 }
+
 </style>
 </head>
 <body>
@@ -198,80 +203,70 @@
   <div class="main-content" id="main-content">
     <h1>Cloud Computing, Fog Computing e Edge Computing</h1>
     <form id="exercises-form">
-      <h3>Questão 1</h3>
-      <p><strong>O que é Cloud Computing?</strong></p>
+      <h3>1. O que é Cloud Computing?</h3>      
       <label><input type="radio" name="q1" value="a"> a) Um serviço que permite executar programas de computador sem a necessidade de conexão à internet.</label>
       <label><input type="radio" name="q1" value="b"> b) Um modelo de computação que oferece recursos de TI pela internet, permitindo acesso sob demanda a serviços como armazenamento e processamento.</label>
       <label><input type="radio" name="q1" value="c"> c) Uma tecnologia utilizada exclusivamente para jogos online.</label>
       <label><input type="radio" name="q1" value="d"> d) Um método de transmissão de dados sem fio em curtas distâncias.</label>
       <label><input type="radio" name="q1" value="e"> e) Um tipo de dispositivo de hardware especializado para mineração de criptomoedas.</label>
 
-      <h3>Questão 2</h3>
-      <p><strong>Qual das seguintes é uma característica chave do Fog Computing?</strong></p>
+      <h3>2. Qual das seguintes é uma característica chave do Fog Computing?</h3>      
       <label><input type="radio" name="q2" value="a"> a) Centralização de dados em um data center principal.</label>
       <label><input type="radio" name="q2" value="b"> b) Redução da latência ao processar dados próximos da origem.</label>
       <label><input type="radio" name="q2" value="c"> c) Exclusiva utilização para backup de dados.</label>
       <label><input type="radio" name="q2" value="d"> d) Necessidade de constante conexão com a internet.</label>
       <label><input type="radio" name="q2" value="e"> e) Dependência de servidores físicos dedicados em um único local.</label>
 
-      <h3>Questão 3</h3>
-      <p><strong>Qual é a principal vantagem do Edge Computing em relação ao Cloud Computing?</strong></p>
+      <h3>3. Qual é a principal vantagem do Edge Computing em relação ao Cloud Computing?</h3>      
       <label><input type="radio" name="q3" value="a"> a) Maior custo operacional.</label>
       <label><input type="radio" name="q3" value="b"> b) Maior dependência de data centers centralizados.</label>
       <label><input type="radio" name="q3" value="c"> c) Processamento de dados mais próximo da fonte, reduzindo a latência.</label>
       <label><input type="radio" name="q3" value="d"> d) Armazenamento ilimitado de dados.</label>
       <label><input type="radio" name="q3" value="e"> e) Dependência total de conexão à internet.</label>
 
-      <h3>Questão 4</h3>
-      <p><strong>Qual tecnologia é mais adequada para aplicações que exigem processamento em tempo real, como veículos autônomos?</strong></p>
+      <h3>4. Qual tecnologia é mais adequada para aplicações que exigem processamento em tempo real, como veículos autônomos?</h3>      
       <label><input type="radio" name="q4" value="a"> a) Cloud Computing</label>
       <label><input type="radio" name="q4" value="b"> b) Fog Computing</label>
       <label><input type="radio" name="q4" value="c"> c) Edge Computing</label>
       <label><input type="radio" name="q4" value="d"> d) Computação Quântica</label>
       <label><input type="radio" name="q4" value="e"> e) Computação Mainframe</label>
 
-      <h3>Questão 5</h3>
-      <p><strong>Qual é um exemplo de aplicação típica de Cloud Computing?</strong></p>
+      <h3>5. Qual é um exemplo de aplicação típica de Cloud Computing?</h3>      
       <label><input type="radio" name="q5" value="a"> a) Controle de um drone em tempo real.</label>
       <label><input type="radio" name="q5" value="b"> b) Armazenamento de grandes volumes de dados de usuários em servidores remotos acessíveis via internet.</label>
       <label><input type="radio" name="q5" value="c"> c) Análise de dados diretamente no dispositivo de coleta.</label>
       <label><input type="radio" name="q5" value="d"> d) Processamento de dados sensoriais em um roteador local.</label>
       <label><input type="radio" name="q5" value="e"> e) Monitoramento de temperatura em uma instalação industrial.</label>
 
-      <h3>Questão 6</h3>
-      <p><strong>O que diferencia o Fog Computing do Edge Computing?</strong></p>
+      <h3>6. O que diferencia o Fog Computing do Edge Computing?</h3>      
       <label><input type="radio" name="q6" value="a"> a) Fog Computing requer uma conexão constante à internet, enquanto Edge Computing não.</label>
       <label><input type="radio" name="q6" value="b"> b) Edge Computing processa dados diretamente nos dispositivos, enquanto Fog Computing processa em uma rede de nós intermediários.</label>
       <label><input type="radio" name="q6" value="c"> c) Fog Computing é utilizado exclusivamente para armazenamento de dados, enquanto Edge Computing é para processamento de dados.</label>
       <label><input type="radio" name="q6" value="d"> d) Edge Computing é um conceito mais recente e substitui completamente o Fog Computing.</label>
       <label><input type="radio" name="q6" value="e"> e) Fog Computing é aplicado apenas em ambientes internos, enquanto Edge Computing é usado ao ar livre.</label>
 
-      <h3>Questão 7</h3>
-      <p><strong>Qual das seguintes opções é um benefício do uso de Edge Computing em IoT (Internet of Things)?</strong></p>
+      <h3>7. Qual das seguintes opções é um benefício do uso de Edge Computing em IoT (Internet of Things)?</h3>      
       <label><input type="radio" name="q7" value="a"> a) Redução no consumo de energia dos dispositivos.</label>
       <label><input type="radio" name="q7" value="b"> b) Aumento da latência na comunicação de dados.</label>
       <label><input type="radio" name="q7" value="c"> c) Necessidade de maiores investimentos em infraestrutura de data centers.</label>
       <label><input type="radio" name="q7" value="d"> d) Melhoria na privacidade dos dados ao processar informações localmente.</label>
       <label><input type="radio" name="q7" value="e"> e) Exclusividade para aplicações de entretenimento.</label>
 
-      <h3>Questão 8</h3>
-      <p><strong>Qual das seguintes é uma desvantagem do Cloud Computing?</strong></p>
+      <h3>8. Qual das seguintes é uma desvantagem do Cloud Computing?</h3>      
       <label><input type="radio" name="q8" value="a"> a) Alta latência para aplicações que requerem processamento em tempo real.</label>
       <label><input type="radio" name="q8" value="b"> b) Capacidade ilimitada de armazenamento de dados.</label>
       <label><input type="radio" name="q8" value="c"> c) Necessidade de conexão com a internet para acessar recursos.</label>
       <label><input type="radio" name="q8" value="d"> d) Facilidade de escalabilidade conforme a demanda.</label>
       <label><input type="radio" name="q8" value="e"> e) Baixo custo inicial para pequenas empresas.</label>
 
-      <h3>Questão 9</h3>
-      <p><strong>O que caracteriza uma arquitetura de Fog Computing?</strong></p>
+      <h3>9. O que caracteriza uma arquitetura de Fog Computing?</h3>      
       <label><input type="radio" name="q9" value="a"> a) Processamento de dados em data centers centralizados e distantes.</label>
       <label><input type="radio" name="q9" value="b"> b) Processamento de dados em dispositivos finais sem nenhuma transmissão.</label>
       <label><input type="radio" name="q9" value="c"> c) Processamento de dados em uma camada intermediária entre os dispositivos finais e a nuvem.</label>
       <label><input type="radio" name="q9" value="d"> d) Exclusividade para aplicações de jogos online.</label>
       <label><input type="radio" name="q9" value="e"> e) Armazenamento de dados em discos rígidos locais.</label>
 
-      <h3>Questão 10</h3>
-      <p><strong>Qual é o papel principal do Edge Computing em uma rede de IoT?</strong></p>
+      <h3>10. Qual é o papel principal do Edge Computing em uma rede de IoT?</h3>      
       <label><input type="radio" name="q10" value="a"> a) Enviar todos os dados para um servidor central para processamento.</label>
       <label><input type="radio" name="q10" value="b"> b) Processar dados localmente nos dispositivos ou próximo à fonte dos dados para reduzir a latência e a largura de banda necessária.</label>
       <label><input type="radio" name="q10" value="c"> c) Armazenar dados em data centers distantes para segurança.</label>
@@ -373,7 +368,5 @@
     modal.style.display = 'none';
   }
   </script>
-  
-
 </body>
 </html>
